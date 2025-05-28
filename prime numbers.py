@@ -4,7 +4,7 @@ n= int(input("please enter a number: "))
 i=2
 flag=True
 if n>=2:
-    while i<n:
+    while i<n//2:
         if n%i==0:
             flag=False
         i+=1
